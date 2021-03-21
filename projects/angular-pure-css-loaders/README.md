@@ -5,6 +5,7 @@ Angular component wrappers of [Pure CSS Loaders](https://loading.io/css/)
 ### Install
 
 Yarn: `yarn add angular-pure-css-loaders`
+
 NPM: `npm i --save angular-pure-css-loaders`
 
 ### Import
