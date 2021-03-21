@@ -12,6 +12,7 @@ import { GridComponent } from './grid/grid.component';
 import { HourglassComponent } from './hourglass/hourglass.component';
 import { RippleComponent } from './ripple/ripple.component';
 import { SpinnerComponent } from './spinner/spinner.component';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { SpinnerComponent } from './spinner/spinner.component';
     RippleComponent,
     SpinnerComponent,
   ],
+  imports: [CommonModule],
   exports: [
     CircleComponent,
     DualRingComponent,

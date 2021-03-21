@@ -1,4 +1,4 @@
-.pcs-spinner {
+.pcl-spinner {
   color: official;
   display: inline-block;
   position: relative;
@@ -6,12 +6,12 @@
   height: 80px;
 }
 
-.pcs-spinner div {
+.pcl-spinner div {
   transform-origin: 40px 40px;
-  animation: pcs-spinner 1.2s linear infinite;
+  animation: pcl-spinner 1.2s linear infinite;
 }
 
-.pcs-spinner div:after {
+.pcl-spinner div:after {
   content: ' ';
   display: block;
   position: absolute;
@@ -20,70 +20,71 @@
   width: 6px;
   height: 18px;
   border-radius: 20%;
-  background: #4dd0e1;
+  // TODO
+  background: #000;
 }
 
-.pcs-spinner div:nth-child(1) {
+.pcl-spinner div:nth-child(1) {
   transform: rotate(0deg);
   animation-delay: -1.1s;
 }
 
-.pcs-spinner div:nth-child(2) {
+.pcl-spinner div:nth-child(2) {
   transform: rotate(30deg);
   animation-delay: -1s;
 }
 
-.pcs-spinner div:nth-child(3) {
+.pcl-spinner div:nth-child(3) {
   transform: rotate(60deg);
   animation-delay: -0.9s;
 }
 
-.pcs-spinner div:nth-child(4) {
+.pcl-spinner div:nth-child(4) {
   transform: rotate(90deg);
   animation-delay: -0.8s;
 }
 
-.pcs-spinner div:nth-child(5) {
+.pcl-spinner div:nth-child(5) {
   transform: rotate(120deg);
   animation-delay: -0.7s;
 }
 
-.pcs-spinner div:nth-child(6) {
+.pcl-spinner div:nth-child(6) {
   transform: rotate(150deg);
   animation-delay: -0.6s;
 }
 
-.pcs-spinner div:nth-child(7) {
+.pcl-spinner div:nth-child(7) {
   transform: rotate(180deg);
   animation-delay: -0.5s;
 }
 
-.pcs-spinner div:nth-child(8) {
+.pcl-spinner div:nth-child(8) {
   transform: rotate(210deg);
   animation-delay: -0.4s;
 }
 
-.pcs-spinner div:nth-child(9) {
+.pcl-spinner div:nth-child(9) {
   transform: rotate(240deg);
   animation-delay: -0.3s;
 }
 
-.pcs-spinner div:nth-child(10) {
+.pcl-spinner div:nth-child(10) {
   transform: rotate(270deg);
   animation-delay: -0.2s;
 }
 
-.pcs-spinner div:nth-child(11) {
+.pcl-spinner div:nth-child(11) {
   transform: rotate(300deg);
   animation-delay: -0.1s;
 }
 
-.pcs-spinner div:nth-child(12) {
+.pcl-spinner div:nth-child(12) {
   transform: rotate(330deg);
   animation-delay: 0s;
 }
 
-@keyframes pcs-spinner {
+@keyframes pcl-spinner {
   0% {
     opacity: 1;
   }

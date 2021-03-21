@@ -1,11 +1,11 @@
-.pcs-hourglass {
+.pcl-hourglass {
   display: inline-block;
   position: relative;
   width: 80px;
   height: 80px;
 }
 
-.pcs-hourglass:after {
+.pcl-hourglass:after {
   content: ' ';
   display: block;
   border-radius: 50%;
@@ -13,12 +13,13 @@
   height: 0;
   margin: 8px;
   box-sizing: border-box;
-  border: 32px solid #4dd0e1;
-  border-color: #4dd0e1 transparent #4dd0e1 transparent;
-  animation: pcs-hourglass 1.2s infinite;
+  border: 32px solid transparent;
+  // TODO
+  border-color: #000 transparent #000 transparent;
+  animation: pcl-hourglass 1.2s infinite;
 }
 
-@keyframes pcs-hourglass {
+@keyframes pcl-hourglass {
   0% {
     transform: rotate(0);
     animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);

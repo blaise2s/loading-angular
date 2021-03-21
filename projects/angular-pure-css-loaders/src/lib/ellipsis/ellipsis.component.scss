@@ -1,41 +1,40 @@
-.pcs-ellipsis {
+.pcl-ellipsis {
   display: inline-block;
   position: relative;
   width: 80px;
   height: 80px;
 }
 
-.pcs-ellipsis div {
+.pcl-ellipsis div {
   position: absolute;
   top: 33px;
   width: 13px;
   height: 13px;
   border-radius: 50%;
-  background: #4dd0e1;
   animation-timing-function: cubic-bezier(0, 1, 1, 0);
 }
 
-.pcs-ellipsis div:nth-child(1) {
+.pcl-ellipsis div:nth-child(1) {
   left: 8px;
-  animation: pcs-ellipsis1 0.6s infinite;
+  animation: pcl-ellipsis1 0.6s infinite;
 }
 
-.pcs-ellipsis div:nth-child(2) {
+.pcl-ellipsis div:nth-child(2) {
   left: 8px;
-  animation: pcs-ellipsis2 0.6s infinite;
+  animation: pcl-ellipsis2 0.6s infinite;
 }
 
-.pcs-ellipsis div:nth-child(3) {
+.pcl-ellipsis div:nth-child(3) {
   left: 32px;
-  animation: pcs-ellipsis2 0.6s infinite;
+  animation: pcl-ellipsis2 0.6s infinite;
 }
 
-.pcs-ellipsis div:nth-child(4) {
+.pcl-ellipsis div:nth-child(4) {
   left: 56px;
-  animation: pcs-ellipsis3 0.6s infinite;
+  animation: pcl-ellipsis3 0.6s infinite;
 }
 
-@keyframes pcs-ellipsis1 {
+@keyframes pcl-ellipsis1 {
   0% {
     transform: scale(0);
   }
@@ -44,7 +43,7 @@
   }
 }
 
-@keyframes pcs-ellipsis3 {
+@keyframes pcl-ellipsis3 {
   0% {
     transform: scale(1);
   }
@@ -53,7 +52,7 @@
   }
 }
 
-@keyframes pcs-ellipsis2 {
+@keyframes pcl-ellipsis2 {
   0% {
     transform: translate(0, 0);
   }

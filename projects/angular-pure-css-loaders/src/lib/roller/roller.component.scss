@@ -1,99 +1,100 @@
-.pcs-roller {
+.pcl-roller {
   display: inline-block;
   position: relative;
   width: 80px;
   height: 80px;
 }
 
-.pcs-roller div {
-  animation: pcs-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+.pcl-roller div {
+  animation: pcl-roller 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
   transform-origin: 40px 40px;
 }
 
-.pcs-roller div:after {
+.pcl-roller div:after {
   content: ' ';
   display: block;
   position: absolute;
   width: 7px;
   height: 7px;
   border-radius: 50%;
-  background: #4dd0e1;
+  // TODO
+  background: #000;
   margin: -4px 0 0 -4px;
 }
 
-.pcs-roller div:nth-child(1) {
+.pcl-roller div:nth-child(1) {
   animation-delay: -0.036s;
 }
 
-.pcs-roller div:nth-child(1):after {
+.pcl-roller div:nth-child(1):after {
   top: 63px;
   left: 63px;
 }
 
-.pcs-roller div:nth-child(2) {
+.pcl-roller div:nth-child(2) {
   animation-delay: -0.072s;
 }
 
-.pcs-roller div:nth-child(2):after {
+.pcl-roller div:nth-child(2):after {
   top: 68px;
   left: 56px;
 }
 
-.pcs-roller div:nth-child(3) {
+.pcl-roller div:nth-child(3) {
   animation-delay: -0.108s;
 }
 
-.pcs-roller div:nth-child(3):after {
+.pcl-roller div:nth-child(3):after {
   top: 71px;
   left: 48px;
 }
 
-.pcs-roller div:nth-child(4) {
+.pcl-roller div:nth-child(4) {
   animation-delay: -0.144s;
 }
 
-.pcs-roller div:nth-child(4):after {
+.pcl-roller div:nth-child(4):after {
   top: 72px;
   left: 40px;
 }
 
-.pcs-roller div:nth-child(5) {
+.pcl-roller div:nth-child(5) {
   animation-delay: -0.18s;
 }
 
-.pcs-roller div:nth-child(5):after {
+.pcl-roller div:nth-child(5):after {
   top: 71px;
   left: 32px;
 }
 
-.pcs-roller div:nth-child(6) {
+.pcl-roller div:nth-child(6) {
   animation-delay: -0.216s;
 }
 
-.pcs-roller div:nth-child(6):after {
+.pcl-roller div:nth-child(6):after {
   top: 68px;
   left: 24px;
 }
 
-.pcs-roller div:nth-child(7) {
+.pcl-roller div:nth-child(7) {
   animation-delay: -0.252s;
 }
 
-.pcs-roller div:nth-child(7):after {
+.pcl-roller div:nth-child(7):after {
   top: 63px;
   left: 17px;
 }
 
-.pcs-roller div:nth-child(8) {
+.pcl-roller div:nth-child(8) {
   animation-delay: -0.288s;
 }
 
-.pcs-roller div:nth-child(8):after {
+.pcl-roller div:nth-child(8):after {
   top: 56px;
   left: 12px;
 }
 
-@keyframes pcs-roller {
+@keyframes pcl-roller {
   0% {
     transform: rotate(0deg);
   }

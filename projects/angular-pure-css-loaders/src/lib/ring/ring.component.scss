@@ -1,36 +1,35 @@
-.pcs-ring {
+.pcl-ring {
   display: inline-block;
   position: relative;
   width: 80px;
   height: 80px;
 }
 
-.pcs-ring div {
+.pcl-ring div {
   box-sizing: border-box;
   display: block;
   position: absolute;
   width: 64px;
   height: 64px;
   margin: 8px;
-  border: 8px solid #4dd0e1;
+  border: 8px solid transparent;
   border-radius: 50%;
-  animation: pcs-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
-  border-color: #4dd0e1 transparent transparent transparent;
+  animation: pcl-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
 }
 
-.pcs-ring div:nth-child(1) {
+.pcl-ring div:nth-child(1) {
   animation-delay: -0.45s;
 }
 
-.pcs-ring div:nth-child(2) {
+.pcl-ring div:nth-child(2) {
   animation-delay: -0.3s;
 }
 
-.pcs-ring div:nth-child(3) {
+.pcl-ring div:nth-child(3) {
   animation-delay: -0.15s;
 }
 
-@keyframes pcs-ring {
+@keyframes pcl-ring {
   0% {
     transform: rotate(0deg);
   }
