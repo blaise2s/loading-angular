@@ -1,7 +1,7 @@
 {
   "name": "angular-pure-css-loaders",
   "description": "Angular component wrappers of Pure CSS Loaders",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "private": false,
   "license": "MIT",
   "author": {
@@ -16,11 +16,17 @@
     "url": "https://github.com/blaise2s/loading-angular/issues"
   },
   "homepage": "https://github.com/blaise2s/loading-angular/tree/main/projects/angular-pure-css-loaders",
+  "scripts": {
+    "release": "standard-version"
+  },
   "peerDependencies": {
     "@angular/common": "^11.2.6",
     "@angular/core": "^11.2.6"
   },
   "dependencies": {
     "tslib": "^2.0.0"
+  },
+  "devDependencies": {
+    "standard-version": "^9.1.1"
   }
 }
