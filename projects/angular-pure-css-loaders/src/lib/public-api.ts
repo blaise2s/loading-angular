@@ -17,4 +17,4 @@ export { RippleComponent } from './ripple/ripple.component';
 export { SpinnerComponent } from './spinner/spinner.component';
 
 // Module
-export { LoadingModule } from './loading.module';
+export { PureCssLoadingModule } from './pure-css-loading.module';

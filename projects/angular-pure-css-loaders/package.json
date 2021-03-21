@@ -15,6 +15,7 @@
   "bugs": {
     "url": "https://github.com/blaise2s/loading-angular/issues"
   },
+  "homepage": "https://github.com/blaise2s/loading-angular/tree/main/projects/angular-pure-css-loaders",
   "peerDependencies": {
     "@angular/common": "^11.2.6",
     "@angular/core": "^11.2.6"

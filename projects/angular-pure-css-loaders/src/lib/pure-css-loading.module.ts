@@ -43,4 +43,4 @@ import { SpinnerComponent } from './spinner/spinner.component';
     SpinnerComponent,
   ],
 })
-export class LoadingModule {}
+export class PureCssLoadingModule {}

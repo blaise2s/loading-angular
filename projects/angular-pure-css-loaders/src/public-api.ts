@@ -3,4 +3,4 @@
  */
 
 // Modules
-export * from './lib/loading/public-api';
+export * from './lib/public-api';
