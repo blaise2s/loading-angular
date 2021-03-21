@@ -30,8 +30,8 @@ export class AppModule {}
 
 ### Use a loader
 
-The loader tag corresponds to the `class="lds-..."` name prefixed with `pcl-`. For example, the snippet blow is the the loader for `class=lds-roller`
+The loader tag corresponds to the `class="lds-..."` name prefixed with `pcl-`. For example, the snippet blow is the the loader for `class=lds-ring`. Any of the loaders that are not utilizing `:before` or `:after` pseudo selectors can be colored with the `color` attribute. A few loaders may also take a `secondaryColor` attribute for bicolor appearance.
 
 ```html
-<pcl-roller></pcl-roller>
+<pcl-ring color="#4dd0e1"></pcl-ring>
 ```
