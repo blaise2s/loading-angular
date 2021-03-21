@@ -1,7 +1,7 @@
 {
   "name": "angular-pure-css-loaders",
   "description": "Angular component wrappers of Pure CSS Loaders",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "private": false,
   "license": "MIT",
   "author": {
