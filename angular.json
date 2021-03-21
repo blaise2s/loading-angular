@@ -3,5 +3,43 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-  }
+    "angular-pure-css-loaders": {
+      "projectType": "library",
+      "root": "projects/angular-pure-css-loaders",
+      "sourceRoot": "projects/angular-pure-css-loaders/src",
+      "prefix": "pcl",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "tsConfig": "projects/angular-pure-css-loaders/tsconfig.lib.json",
+            "project": "projects/angular-pure-css-loaders/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/angular-pure-css-loaders/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/angular-pure-css-loaders/src/test.ts",
+            "tsConfig": "projects/angular-pure-css-loaders/tsconfig.spec.json",
+            "karmaConfig": "projects/angular-pure-css-loaders/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "projects/angular-pure-css-loaders/**/*.ts",
+              "projects/angular-pure-css-loaders/**/*.html"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "angular-pure-css-loaders"
 }
